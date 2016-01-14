@@ -1,4 +1,4 @@
-var portfolioView = {}
+var portfolioView = [];
 
 function Projects (opts) {
   this.title = opts.title;
