@@ -1,3 +1,8 @@
+h1  {
+
+}
+
+
 #main-menu {
     position: fixed;
     display: block;
@@ -16,7 +21,8 @@
 }
 .menu {
     text-align: right;
-    height: 100%
+    height: 100%;
+    padding-right: 5%;
 }
 
 .menu li {
@@ -40,6 +46,8 @@
 .menu li a:hover {
     color: #fff
 }
+
+
 .fullscreen-img {
     z-index: -1;
     position: fixed;
@@ -63,33 +71,46 @@
     -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     display: inline-block;
-    width: 920px;
+    width: 100%;
     text-align: center;
+}
+
+.welcomeMenu {
+  font-size: 100%;
+  position: relative;
+}
+
+.welcomeTextCenter {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  color: white;
+  text-shadow: 2px 2px black;
 }
 
 .welcomeText h1,
 h1.welcomeText {
-    font-size: 70px
+    font-size: 2em;
 }
 .welcomeText h2,
 h2.welcomeText {
-    font-size: 60px
+    font-size: 1.7em;
 }
 .welcomeText h3,
 h3.welcomeText {
-    font-size: 50px
+    font-size: 50px;
 }
 .welcomeText h4,
 h4.welcomeText {
-    font-size: 40px
+    font-size: 40px;
 }
 .welcomeText h5,
 h5.welcomeText {
-    font-size: 30px
+    font-size: 30px;
 }
 .welcomeText h6,
 h6.welcomeText {
-    font-size: 20px
+    font-size: 20px;
 }
 
 
@@ -138,4 +159,11 @@ h6.welcomeText {
     position: relative;
     padding-top: 25px;
     background: #f0f0f0
+}
+
+.borderHr {
+  height: 600px;
+  width: 40%;
+  border-top: solid 2px white;
+  border-bottom: solid 2px white;
 }
