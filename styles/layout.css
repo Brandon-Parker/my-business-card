@@ -1,3 +1,98 @@
+#main-menu {
+    position: fixed;
+    display: block;
+    width: 100%;
+    min-height: 50px;
+    background: #1a1a1a;
+    z-index: 99;
+    -webkit-box-shadow: 0 0 0 2px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, .1)
+}
+#menu-wrap {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 920px
+}
+.menu {
+    text-align: right;
+    height: 100%
+}
+
+.menu li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1em;
+    line-height: 70px;
+    text-transform: uppercase
+}
+
+.menu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #7a7a7a;
+    height: 100%
+}
+
+.menu li a:hover {
+    color: #fff
+}
+.fullscreen-img {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.home-content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    width: 920px;
+    text-align: center;
+}
+
+.welcomeText h1,
+h1.welcomeText {
+    font-size: 70px
+}
+.welcomeText h2,
+h2.welcomeText {
+    font-size: 60px
+}
+.welcomeText h3,
+h3.welcomeText {
+    font-size: 50px
+}
+.welcomeText h4,
+h4.welcomeText {
+    font-size: 40px
+}
+.welcomeText h5,
+h5.welcomeText {
+    font-size: 30px
+}
+.welcomeText h6,
+h6.welcomeText {
+    font-size: 20px
+}
+
+
 .pull-left {
   float: left;
 }
@@ -37,4 +132,10 @@
     width: 20em;
     display: inline;
   }
+}
+
+.footer {
+    position: relative;
+    padding-top: 25px;
+    background: #f0f0f0
 }

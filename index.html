@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Portfolio</title>
     <meta name="viewport" content="width=device-width", intial-scale="1">
-    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/icons.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/layout.css">
@@ -12,55 +12,42 @@
 
 <body>
   <header>
-    <section id="articles">
-       <article class="template" data-category="main">
-           <h1>Brandon Parker - Portfolio</h1>
-           <p>Practice Makes Perfect!</p>
-           <nav class="main-nav">
-             <ul>
-               <li class="tab">Home</li>
-               <li class="tab">About</li>
-               <li class="tab"><a href="https://twitter.com/Brandadondondon">Twitter</a></li>
-               <li class="tab"><a href="https://github.com/Brandon-Parker">Github</a></li>
-             </ul>
-           </nav>
-         </header>
-         <main>
-           <section id="articles" class="tab-content">
-             <div>
-               <ul id="projects">
-                 <li>
-                   <select id="title-filter">
-                     <option value="">-- Filter by Title --</option>
-                   </select>
-                 </li>
-                 <li>
-                    <select id="category-filter">
-                     <option value="">-- Filter by Categories --</option>
-                    </select>
-                 </li>
-               </ul>
-             </div>
-           </section>
-           <div class="byline">
-             By <address><a href="">Author Name</a></address>
-             published <time pubdate datetime="2000-01-01">Publish Time</time>
-           </div>
-           <section id="about" class="tab-content">
-             <header>
-               Welcome to my Blog
-             </header>
-             <section>
-               <h1>Some of my intrests:</h1>
-               <ul>
-                 <li>Coding</li>
-                 <li>Sharing what I've learned</li>
-                 <li>Hanging with my family</li>
-               </ul>
-             </section>
-           </section>
-       </article>
-     </section>
+     <nav id="main-menu" class="navMenu">
+       <ul class="menu">
+         <li class="tab"><a href="index.html"></a>Home</li>
+         <li class="tab"><a href="https://twitter.com/Brandadondondon">Twitter</a></li>
+         <li class="tab"><a href="https://github.com/Brandon-Parker">Github</a></li>
+       </ul>
+     </nav>
+   </header>
+
+   <main>
+     <div class="welcomeMenu">
+       <h1>Portfolio</h1>
+       <p>Practice Makes Perfect!</p>
+       <li>
+         <div class="home-content">
+    			<div class="welcomeText">
+    				<h1 class="welcomeText">You are awesome</h1>
+    				<h6 class="welcomeText">It's very good to meet you</h6>
+    			</div>
+        </div>
+        <img src="images/backgroundImg.jpg" />
+       </li>
+     </div>
+     <!-- <section id="about" class="tab-content">
+       <h1>
+         Welcome to my Portfolio
+       </h1>
+       <section>
+         <h2>Some of my intrests:</h2>
+         <ul>
+           <li>Coding</li>
+           <li>Sharing what I've learned</li>
+           <li>Hanging with my family</li>
+         </ul>
+       </section>
+     </section> -->
    </main>
   <footer>
     &copy; BP Productions *You bet it's real* | Portfolio | Happy Ipsum!
