@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/icons.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="/vendor/styles/jquery.bxslider.css"/>
   </head>
 
 <body>
@@ -37,25 +38,30 @@
          </li>
        </ul>
      </div>
-     <section id="about" class="tab-content">
-       <h1>
-         Welcome to my Portfolio
-       </h1>
-       <section>
-         <h2>Some of my intrests:</h2>
-         <ul>
-           <li>Coding</li>
-           <li>Sharing what I've learned</li>
-           <li>Hanging with my family</li>
-         </ul>
+     <section id="introduction">
+       <div class="title">
+         <h1>Welcome to my Portfolio</h1>
+       </div>
+       <section id="innerText">
+         <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. </p>
+         <p><a href="#work" class="button outline smoothscroll">View my work</a></p>
+
        </section>
+     </section>
+     <section id="home-slider-wrapper">
+       <ul class="bxslider">
+         <li><a href="http://brandon-parker.github.io/mortality/"><img src="/images/madlibs.png" alt="Death Madlibs" /></a></li>
+         <li><a href="http://brandon-parker.github.io/vote-tracker-bp/"><img src="/images/vote-tracker.png" alt="Vote Tracker" /></a></li>
+       </ul>
      </section>
    </main>
   <footer>
     &copy; BP Productions *You bet it's real* | Portfolio | Happy Ipsum!
   </footer>
-  <script type="scripts/projects.js"></script>
+  <script src="scripts/jquery-2.1.4.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <script src="/vendor/scripts/jquery.bxslider.js"></script>
+  <script src="scripts/projects.js"></script>
   <script src="scripts/app.js"></script>
-  <script type="scripts/appView"></script>
   </body>
 </html>

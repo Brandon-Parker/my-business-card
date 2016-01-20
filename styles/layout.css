@@ -1,14 +1,10 @@
-h1  {
-
-}
-
 
 #main-menu {
     position: fixed;
     display: block;
     width: 100%;
     min-height: 50px;
-    background: #1a1a1a;
+    background: #41463D;
     z-index: 99;
     -webkit-box-shadow: 0 0 0 2px rgba(0, 0, 0, .1);
     box-shadow: 0 0 0 2px rgba(0, 0, 0, .1)
@@ -113,6 +109,46 @@ h6.welcomeText {
     font-size: 20px;
 }
 
+.introduction {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 140px;
+  background: #f0f0f0;
+}
+
+.title {
+  margin: 1em;
+}
+
+.title h1 {
+  position: relative;
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 600;
+  letter-spacing: .15em;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+#innerText p {
+  text-align: center;
+  margin: 1em;
+}
+
+.button {
+    font-size: 20%;
+    /*font-weight: 600;*/
+    letter-spacing: .2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background: grey;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    margin-top: 25px
+}
 
 .pull-left {
   float: left;

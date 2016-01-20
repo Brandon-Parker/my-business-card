@@ -7,3 +7,12 @@ function Projects (opts) {
   this.publishedOn = opts.publishedOn;
   this.body = opts.body;
 }
+
+function bxslider() {
+$(document).ready(function(){
+  $('.bxslider').bxSlider();
+  });
+}
+
+
+bxslider();
