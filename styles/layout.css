@@ -43,7 +43,36 @@
     color: #fff
 }
 
+@media only screen and (min-width:1200px) {
+    .home-content,
+    .menu-wrap {
+        width: 1160px
+    }
+}
 
+@media only screen and (min-width: 640px) {
+  .icon-menu {
+    display: none;
+  }
+
+  .main-nav {
+    padding: .2em .2em .2em 2em;
+  }
+
+  .main-nav ul {
+    display: block;
+  }
+
+  .main-nav ul li {
+    display: inline;
+    border-bottom: none;
+  }
+
+  .main-nav ul li:hover a {
+    color: #29506D;
+  }
+
+}
 .fullscreen-img {
     z-index: -1;
     position: fixed;
@@ -137,8 +166,8 @@ h6.welcomeText {
 
 .button {
     font-size: 20%;
-    /*font-weight: 600;*/
     letter-spacing: .2em;
+    text-align: center;
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block;
@@ -149,6 +178,8 @@ h6.welcomeText {
     border-radius: 2px;
     margin-top: 25px
 }
+
+
 
 .pull-left {
   float: left;
@@ -173,9 +204,8 @@ h6.welcomeText {
   margin: .2em 5%;
 }
 
-/* DONE: Add styles so the filters lay out better on desktop. */
 @media only screen and (min-width: 640px) {
-  .heading-group-h1 {
+  .navMenu {
     padding: .1em .1em .1em 2em;
     float: none;
   }

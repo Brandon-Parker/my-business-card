@@ -15,11 +15,11 @@
   <header>
      <nav id="main-menu" class="navMenu">
        <ul class="menu">
-         <li class="tab"><a href="index.html"></a>Home</li>
-         <li class="tab"><a href="#work">Work</a></li>
-         <li class="tab"><a href="https://twitter.com/Brandadondondon">Twitter</a></li>
+         <li class="tab"><a href="#home"></a>Home</li>
+         <li class="tab"><a href="#home-slider-wrapper">Work</a></li>
+         <li class="tab"><a href="#about">About</a></li>
          <li class="tab"><a href="https://github.com/Brandon-Parker">Github</a></li>
-         <li class="tab"><a href="#contact">Contact</a></li>
+         <li class="tab"><a href="https://twitter.com/Brandadondondon">Twitter</a></li>
        </ul>
      </nav>
    </header>
@@ -44,15 +44,33 @@
        </div>
        <section id="innerText">
          <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. </p>
-         <p><a href="#work" class="button outline smoothscroll">View my work</a></p>
-
+         <p><a href="#work" class="button">View my work</a></p>
        </section>
      </section>
+     <div class="fillerRow">
+       <h1>Work Carousel</h1>
+     </div>
      <section id="home-slider-wrapper">
        <ul class="bxslider">
          <li><a href="http://brandon-parker.github.io/mortality/"><img src="/images/madlibs.png" alt="Death Madlibs" /></a></li>
          <li><a href="http://brandon-parker.github.io/vote-tracker-bp/"><img src="/images/vote-tracker.png" alt="Vote Tracker" /></a></li>
        </ul>
+     </section>
+     <section id="articleView">
+       <div class="rowHeader">
+         <script id="project-template" type="text/x-handlebars-template">
+           <article data-title="{{title}}">
+             <header>
+               <h1>{{title}}</h1>
+                <div class="byline">
+                  By <address><a href="{{authorUrl}}">{{author}}</a></address>
+                  {{publishedOn}}
+                </div>
+              </header>
+            </article>
+            <section class="article-body">{{{body}}}</section>
+         </script>
+       </div>
      </section>
    </main>
   <footer>
@@ -61,6 +79,7 @@
   <script src="scripts/jquery-2.1.4.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
   <script src="/vendor/scripts/jquery.bxslider.js"></script>
+  <script src="/vendor/scripts/handlebars.js"></script>
   <script src="scripts/projects.js"></script>
   <script src="scripts/app.js"></script>
   </body>

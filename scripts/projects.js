@@ -1,18 +1,16 @@
-var portfolioProjects = [
-
-{
-  title: 'Salmon Cookie Stand',
-  category: '',
-  authorUrl: 'https://github.com/Brandon-Parker/cookie-stand',
-  publishedOn: 'November 8th, 2015',
-  body: 'One of the first projects built with HTML, CSS and JavaScript through the CodeFellows 201 program built in the second week of class.',
-},
-{
-  title: '',
-  category: '',
-  authorUrl: '',
-  publishedOn: '',
-  body: '',
-},
-
-];
+// function Project (opts) {
+//   this.title = opts.title;
+//   this.authorUrl = opts.authorUrl;
+//   this.publishedOn = opts.publishedOn;
+//   this.body = opts.body;
+// }
+//
+// Project.prototype.toHtml = function() {
+//   var template = Handlebars.compile($('#project.template').text());
+//   return template(this);
+// }
+//
+// projectData.forEach(function(ele) {
+//   var newProject = new Project(ele);
+//   newProject.toHtml($)
+// })
