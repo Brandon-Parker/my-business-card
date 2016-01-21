@@ -57,29 +57,30 @@
        </ul>
      </section>
      <section id="articleView">
-       <div class="rowHeader">
-         <script id="project-template" type="text/x-handlebars-template">
-           <article data-title="{{title}}">
-             <header>
-               <h1>{{title}}</h1>
-                <div class="byline">
-                  By <address><a href="{{authorUrl}}">{{author}}</a></address>
-                  {{publishedOn}}
-                </div>
-              </header>
-            </article>
-            <section class="article-body">{{{body}}}</section>
-         </script>
+       <div id="rowHeader">
        </div>
      </section>
    </main>
   <footer>
     &copy; BP Productions *You bet it's real* | Portfolio | Happy Ipsum!
   </footer>
+  <script id="project-template" type="text/x-handlebars-template">
+    <article id="content" data-title="{{title}}">
+      <header>
+        <h1>{{title}}</h1>
+        <div class="byline">
+          By <address><a href="{{authorUrl}}">{{author}}</a></address>
+          {{publishedOn}}
+        </div>
+      </header>
+    </article>
+    <section class="article-body">{{{body}}}</section>
+  </script>
   <script src="scripts/jquery-2.1.4.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
   <script src="/vendor/scripts/jquery.bxslider.js"></script>
   <script src="/vendor/scripts/handlebars.js"></script>
+  <script src="/data/projectData.js"></script>
   <script src="scripts/projects.js"></script>
   <script src="scripts/app.js"></script>
   </body>
