@@ -22,7 +22,6 @@
          <li class="tab"><a href="https://twitter.com/Brandadondondon">Twitter</a></li>
        </ul>
      </nav>
-     
    </header>
 
    <main>
@@ -45,11 +44,13 @@
        </div>
        <section id="innerText">
          <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. </p>
-         <p><a href="#work" class="button">View my work</a></p>
+         <p><a href="#home-slider-wrapper" class="button">View my work</a></p>
        </section>
      </section>
-     <div class="fillerRow">
-       <h1>Work Carousel</h1>
+     <div id="fillerRow">
+       <hr/ class="style">
+       <h1 class="workPreview">Work Preview</h1>
+       <hr/ class="style">
      </div>
      <section id="home-slider-wrapper">
        <ul class="bxslider">
@@ -62,11 +63,11 @@
        </div>
      </section>
    </main>
-  <footer>
+  <footer class="footer">
     &copy; BP Productions *You bet it's real* | Portfolio | Happy Ipsum!
   </footer>
   <script id="project-template" type="text/x-handlebars-template">
-    <hr />
+    <hr / class="hrClearFix">
     <article id="content" data-title="{{title}}">
       <header>
         <h1>{{title}}</h1>
@@ -76,10 +77,10 @@
         </div>
       </header>
       <br />
-      <a href="{{projectLink}}"> <img src="{{imgLink}}" alt="{{title}}" class="projectImg"> </a>
-      <section class="article-body">{{{body}}}</section>
+      <a href="{{authorUrl}}"> <img src="{{imgLink}}" alt="{{title}}" class="projectImg"> </a>
+      <section class="articleBody">{{{body}}}</section>
       <br />
-      <a href="{{authorUrl}}">View '{{title}}''<a/>
+      <a href="{{authorUrl}}" class="button">View '{{title}}''<a/>
     </article>
   </script>
   <script src="scripts/jquery-2.1.4.js"></script>
