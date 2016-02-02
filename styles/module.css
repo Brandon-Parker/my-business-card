@@ -24,9 +24,6 @@
   clear: both;
 }
 
-/*.main-nav:hover ul {
-  display: block;
-}*/
 
 .main-nav li {
   margin-right: .4em;
@@ -52,17 +49,3 @@
   font-weight: bold;
   text-decoration: none;
 }
-
- @media only screen and (min-width: 640px) {
-   .icon-menu {
-     display: none;
-   }
-   .main-nav ul {
-     display: flex;
-   }
-   .main-nav ul li {
-     display: inline;
-     width: 25%;
-     text-align: center;
-   }
- }

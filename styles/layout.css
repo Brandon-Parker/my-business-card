@@ -17,7 +17,6 @@
 }
 .menu-ul {
     text-align: right;
-    height: 100%;
     padding-right: 5%;
 }
 
@@ -43,17 +42,17 @@
     color: #fff
 }
 
-@media only screen and (min-width:1200px) {
+.mobile-menu {
+  display: none;
+}
+
+/*@media only screen and (min-width:1200px) {
     .home-content,
     .menu-wrap {
         width: 1160px
     }
-}
+}*/
 
-
-.mobile-menu {
-  display: none;
-}
 @media only screen and (min-width: 768px) {
   .icon-menu {
     display: none;
@@ -63,12 +62,10 @@
     display: block;
     overflow: auto;
   }
-  .main-nav {
-    padding: .2em .2em .2em 2em;
-  }
 
   .main-nav ul {
     display: block;
+    padding-right: 5%;
   }
 
   .main-nav ul li {
@@ -97,6 +94,20 @@
 
 
 }
+@media only screen and (min-width: 640px) {
+  .icon-menu {
+    display: none;
+  }
+  .main-nav ul {
+    display: flex;
+  }
+  .main-nav ul li {
+    display: inline;
+    width: 25%;
+    text-align: center;
+  }
+}
+
 .fullscreen-img {
     z-index: -1;
     position: fixed;
@@ -205,6 +216,7 @@ h6.welcomeText {
 
 a.button{
   position: relative;;
+  color: white;
 }
 
 hr.style {

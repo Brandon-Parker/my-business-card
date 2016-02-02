@@ -27,5 +27,15 @@ var projectData = [
   imgLink:'images/madlibs.png',
 
 },
+{
+title: 'Queue-You',
+  author: 'Brandon Parker, Carson Parker, Jared Scarr, Michael Sullivan',
+  authorUrl: 'https://queue-you.firebaseapp.com/',
+  publishedOn: 'January 29th, 2016',
+  body: 'Final Project for Code Fellows 301. Queue-You by Brandon Parker, Carson Parker, Jared Scarr, Michael Sullivan. Queue-You is a web app that keeps track of students who need help during a class lab period and makes it easier for teachers to plan who to help next. Students can sign up for the help list, indicate what sort of issue they’re having, give a brief description of their problem, and receive a list of suggestions for where to look while waiting.',
+  imgLink:'images/queue-you.png',
+
+},
+
 
 ];
