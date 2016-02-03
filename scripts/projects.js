@@ -17,6 +17,6 @@ Project.prototype.toHtml = function() {
 display.initIndexPage = function() {
   projectData.map(function(ele) {
     var newProject = new Project(ele);
-    $('#rowHeader').append(newProject.toHtml());
+    $('#row-header').append(newProject.toHtml());
   });
 }

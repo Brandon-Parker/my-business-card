@@ -59,24 +59,24 @@
   }
 
   .mobile-menu{
-    display: block;
+    display: none;
     overflow: auto;
   }
 
-  .main-nav ul {
+  .nav-menu ul {
     display: block;
     padding-right: 5%;
   }
 
-  .main-nav ul li {
+  .nav-menu ul li {
     display: inline;
     border-bottom: none;
   }
 
-  .main-nav ul li:hover a {
+  .nav-menu ul li:hover a {
     color: #29506D;
   }
-  .navMenu {
+  .nav-menu {
     padding: .1em .1em .1em 2em;
     display: none;
   }
@@ -98,14 +98,24 @@
   .icon-menu {
     display: none;
   }
-  .main-nav ul {
-    display: flex;
+  .nav-menu ul {
+    display: block;
   }
-  .main-nav ul li {
-    display: inline;
+  .nav-menu ul li {
+    display: block;
     width: 25%;
     text-align: center;
   }
+}
+
+@media only screen and (min-width: 520px) {
+  .menu-ul {
+    display: block;
+    text-align: center;
+    padding-right: 3%;
+    padding-left: 3%;
+  }
+
 }
 
 .fullscreen-img {
@@ -135,12 +145,12 @@
     text-align: center;
 }
 
-.welcomeMenu {
+.welcome-menu {
   font-size: 100%;
   position: relative;
 }
 
-.welcomeTextCenter {
+.welcome-text-center {
   position: absolute;
   width: 100%;
   top: 50%;
@@ -148,28 +158,28 @@
   text-shadow: 2px 2px black;
 }
 
-.welcomeText h1,
-h1.welcomeText {
+.welcome-text h1,
+h1.welcome-text {
     font-size: 2em;
 }
-.welcomeText h2,
-h2.welcomeText {
+.welcome-text h2,
+h2.welcome-text {
     font-size: 1.7em;
 }
-.welcomeText h3,
-h3.welcomeText {
+.welcome-text h3,
+h3.welcome-text {
     font-size: 50px;
 }
-.welcomeText h4,
-h4.welcomeText {
+.welcome-text h4,
+h4.welcome-text {
     font-size: 40px;
 }
-.welcomeText h5,
-h5.welcomeText {
+.welcome-text h5,
+h5.welcome-text {
     font-size: 30px;
 }
-.welcomeText h6,
-h6.welcomeText {
+.welcome-text h6,
+h6.welcome-text {
     font-size: 20px;
 }
 
@@ -194,7 +204,7 @@ h6.welcomeText {
   text-align: center;
 }
 
-#innerText p {
+#inner-text p {
   text-align: center;
   margin: 1em;
 }
@@ -238,7 +248,7 @@ hr.style:before {
   border-radius: 20px;
 }
 
-.workPreview {
+.work-preview {
   position: relative;
   text-align: center;
   padding-bottom: 7%;
@@ -249,7 +259,7 @@ hr.style:before {
   letter-spacing: .15em;
 }
 
-#articleView {
+#article-view {
   background-color: #fdeddd;
   text-align: center;
 
@@ -259,7 +269,7 @@ hr.style:before {
   display: inline-block;
 }*/
 
-#fillerRow {
+#filler-row {
   text-align: center;
   position: relative;
   padding: 10%;
@@ -288,7 +298,7 @@ hr.style:before {
   margin: .2em 5%;
 }
 
-.projectImg {
+.project-img {
   display: block;
   max-width: 50%;
   padding-left: 5%;
@@ -296,12 +306,12 @@ hr.style:before {
   float: left;
 }
 
-.hrClearFix {
+.hr-clear-fix {
   display: inline-block;
   width: 65%;
 }
 
-.articleBody {
+.article-body {
   display: inline;
   width: 60%;
   text-align: center;

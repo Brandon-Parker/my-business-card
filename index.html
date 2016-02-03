@@ -14,7 +14,7 @@
 
 <body>
   <header>
-     <nav id="main-menu" class="navMenu">
+     <nav id="main-menu" class="nav-menu">
        <ul class="menu-ul">
          <li class="tab"><a href="#home">Home</a></li>
          <li class="tab"><a href="#home-slider-wrapper">Work</a></li>
@@ -26,16 +26,16 @@
    </header>
 
    <main>
-     <div class="welcomeMenu">
+     <div class="welcome-menu">
        <ul>
          <li>
            <div class="home-content">
-      			<div class="welcomeTextCenter">
-      				<h1 class="welcomeText">You are awesome</h1>
-      				<h6 class="welcomeText">It's very good to meet you</h6>
+      			<div class="welcome-text-center">
+      				<h1 class="welcome-text">You are awesome</h1>
+      				<h6 class="welcome-text">It's very good to meet you</h6>
       			</div>
           </div>
-          <img id="backgroundImg" src="images/backgroundImg.jpg" />
+          <img id="background-img" src="images/backgroundImg.jpg" />
          </li>
        </ul>
      </div>
@@ -43,24 +43,25 @@
        <div class="title">
          <h1>Welcome to my Portfolio</h1>
        </div>
-       <section id="innerText">
+       <section id="inner-text">
          <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. </p>
          <p><a href="#home-slider-wrapper" class="button">View my work</a></p>
        </section>
      </section>
-     <div id="fillerRow">
+     <div id="filler-row">
        <hr/ class="style">
-       <h1 class="workPreview">Work Preview</h1>
+       <h1 class="work-preview">Work Preview</h1>
        <hr/ class="style">
      </div>
      <section id="home-slider-wrapper">
        <ul class="bxslider">
          <li><a href="http://brandon-parker.github.io/mortality/"><img src="/images/madlibs.png" alt="Death Madlibs" /></a></li>
          <li><a href="http://brandon-parker.github.io/vote-tracker-bp/"><img src="/images/vote-tracker.png" alt="Vote Tracker" /></a></li>
+         <li><a href="https://queue-you.firebaseapp.com/"><img src="/images/queue-you.png" alt="Queue-You" /></a></li>
        </ul>
      </section>
-     <section id="articleView">
-       <div id="rowHeader">
+     <section id="article-view">
+       <div id="row-header">
        </div>
      </section>
    </main>
@@ -68,18 +69,18 @@
     &copy; BP Productions *You bet it's real* | Portfolio | Happy Ipsum!
   </footer>
   <script id="project-template" type="text/x-handlebars-template">
-    <hr / class="hrClearFix">
+    <hr / class="hr-clear-fix">
     <article id="content" data-title="{{title}}">
       <header>
         <h1>{{title}}</h1>
-        <div class="byAuthor">
+        <div class="by-author">
           By <address><a href="{{authorUrl}}">{{author}}</a></address>
           {{publishedOn}}
         </div>
       </header>
       <br />
-      <a href="{{authorUrl}}"> <img src="{{imgLink}}" alt="{{title}}" class="projectImg"> </a>
-      <section class="articleBody">{{{body}}}</section>
+      <a href="{{authorUrl}}"> <img src="{{imgLink}}" alt="{{title}}" class="project-img"> </a>
+      <section class="article-body">{{{body}}}</section>
       <br />
       <a href="{{authorUrl}}" class="button">View '{{title}}''<a/>
     </article>
@@ -90,7 +91,7 @@
   <script src="/vendor/scripts/handlebars.js"></script>
   <script src="/data/projectData.js"></script>
   <script src="scripts/projects.js"></script>
-  <script src="scripts/app.js"></script>
+  <script src="scripts/slider.js"></script>
   <script>
     display.initIndexPage();
   </script>
