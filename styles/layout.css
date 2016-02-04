@@ -1,20 +1,12 @@
-
 #main-menu {
     position: fixed;
-    display: block;
+    display: inline-block;
     width: 100%;
     min-height: 50px;
     background: #1a1a1a;
     z-index: 99;
-    -webkit-box-shadow: 0 0 0 2px rgba(0, 0, 0, .1);
-    box-shadow: 0 0 0 2px rgba(0, 0, 0, .1)
 }
-#menu-wrap {
-    position: relative;
-    display: block;
-    margin: 0 auto;
-    width: 920px
-}
+
 .menu-ul {
     text-align: right;
     padding-right: 5%;
@@ -42,70 +34,31 @@
     color: #fff
 }
 
-.mobile-menu {
-  display: none;
-}
-
-/*@media only screen and (min-width:1200px) {
-    .home-content,
-    .menu-wrap {
-        width: 1160px
-    }
-}*/
-
 @media only screen and (min-width: 768px) {
-  .icon-menu {
-    display: none;
-  }
-
   .mobile-menu{
     display: none;
     overflow: auto;
   }
 
-  .nav-menu ul {
+  .menu-ul {
     display: block;
-    padding-right: 5%;
+    text-align: right;
+    padding-right: 3%;
+    padding-left: 3%;
   }
-
-  .nav-menu ul li {
-    display: inline;
-    border-bottom: none;
-  }
-
-  .nav-menu ul li:hover a {
-    color: #29506D;
-  }
-  .nav-menu {
-    padding: .1em .1em .1em 2em;
-    display: none;
-  }
-
-  #filters select {
-    width: 15em;
-    margin: .2em .2em;
-  }
-
-  #filters li {
-    width: 20em;
-    display: inline;
-  }
-
-
 
 }
 @media only screen and (min-width: 640px) {
   .icon-menu {
     display: none;
   }
-  .nav-menu ul {
+  .menu-ul {
     display: block;
+    text-align: right;
+    padding-right: 3%;
+    padding-left: 3%;
   }
-  .nav-menu ul li {
-    display: block;
-    width: 25%;
-    text-align: center;
-  }
+
 }
 
 @media only screen and (min-width: 520px) {
@@ -114,6 +67,7 @@
     text-align: center;
     padding-right: 3%;
     padding-left: 3%;
+    width: 100%;
   }
 
 }
@@ -264,10 +218,6 @@ hr.style:before {
   text-align: center;
 
 }
-/*hr {
-  width: 50%;
-  display: inline-block;
-}*/
 
 #filler-row {
   text-align: center;
@@ -291,11 +241,6 @@ hr.style:before {
 
 .heading-group-h1 {
   max-width: 80%;
-}
-
-#filters select {
-  width: 90%;
-  margin: .2em 5%;
 }
 
 .project-img {

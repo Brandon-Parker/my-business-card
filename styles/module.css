@@ -17,12 +17,12 @@
   padding: 0.1em;
 }
 
-.main-nav ul {
+/*.main-nav ul {
   display: none;
   padding: 0;
   list-style: none;
   clear: both;
-}
+}*/
 
 
 .main-nav li {
@@ -30,11 +30,6 @@
   font-size: 1.5em;
   padding: .5em .2em;
   border-bottom: 1px solid #ccc;
-}
-
-#filters {
-  padding: 0;
-  list-style: none;
 }
 
 .template {
