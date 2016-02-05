@@ -8,7 +8,7 @@
 }
 
 .menu-ul {
-    text-align: right;
+    text-align: center;
     padding-right: 5%;
 }
 
@@ -42,7 +42,7 @@
 
   .menu-ul {
     display: block;
-    text-align: right;
+    text-align: center;
     padding-right: 3%;
     padding-left: 3%;
   }
@@ -58,7 +58,7 @@
   }
   .menu-ul {
     display: block;
-    text-align: right;
+    text-align: center;
     padding-right: 3%;
     padding-left: 3%;
   }

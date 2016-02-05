@@ -20,3 +20,7 @@ display.initIndexPage = function() {
     $('#row-header').append(newProject.toHtml());
   });
 }
+
+$('.button').hover(function(){
+  $(this).addClass('animated bounce');
+});
