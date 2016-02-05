@@ -47,6 +47,10 @@
     padding-left: 3%;
   }
 
+  .tab {
+
+  }
+
 }
 @media only screen and (min-width: 640px) {
   .icon-menu {
@@ -70,6 +74,16 @@
     width: 100%;
   }
 
+}
+@media only screen and (max-width: 520px) {
+  .menu-ul {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .nav-menu {
+    opacity: .7;
+  }
 }
 
 .fullscreen-img {
