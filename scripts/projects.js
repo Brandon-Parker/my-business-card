@@ -21,6 +21,22 @@ display.initIndexPage = function() {
   });
 }
 
-$('.button').hover(function(){
-  $(this).addClass('animated bounce');
+// $('.button').ready(function(){
+//   $(this).addClass('animated bounce');
+// });
+
+$('a.button').on('mouseenter', this, function(){
+ $(this).addClass('animated bounce');
+});
+
+$('a.button').on('mouseleave', this, function(){
+ $(this).removeClass('animated bounce');
+});
+
+$('#article-view').on('mouseenter', 'a.button', function(){
+     $(this).addClass('animated bounce');
+});
+
+$('#article-view').on('mouseleave', 'a.button', function(){
+     $(this).removeClass('animated bounce');
 });
