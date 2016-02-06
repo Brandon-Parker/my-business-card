@@ -21,10 +21,6 @@ display.initIndexPage = function() {
   });
 }
 
-// $('.button').ready(function(){
-//   $(this).addClass('animated bounce');
-// });
-
 $('a.button').on('mouseenter', this, function(){
  $(this).addClass('animated bounce');
 });
