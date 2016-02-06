@@ -1,0 +1,23 @@
+{
+  "name": "my-business-card",
+  "version": "1.0.0",
+  "description": "Portfolio Assignment for Code Fellows 301",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brandon-Parker/my-business-card.git"
+  },
+  "author": "Brandon Parker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brandon-Parker/my-business-card/issues"
+  },
+  "homepage": "https://github.com/Brandon-Parker/my-business-card#readme",
+  "dependencies": { 
+    "express": "^4.13.3", 
+    "express-request-proxy": "^1.0.11"   }
+}
