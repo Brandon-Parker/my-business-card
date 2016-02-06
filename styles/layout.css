@@ -3,7 +3,7 @@
     display: inline-block;
     width: 100%;
     min-height: 50px;
-    background: #1a1a1a;
+    background: #011627;
     z-index: 99;
 }
 
@@ -43,8 +43,6 @@
   .menu-ul {
     display: block;
     text-align: center;
-    padding-right: 3%;
-    padding-left: 3%;
   }
 
   .tab {
@@ -59,8 +57,6 @@
   .menu-ul {
     display: block;
     text-align: center;
-    padding-right: 3%;
-    padding-left: 3%;
   }
 
 }
@@ -69,9 +65,6 @@
   .menu-ul {
     display: block;
     text-align: center;
-    padding-right: 3%;
-    padding-left: 3%;
-    width: 100%;
   }
 
 }
@@ -197,34 +190,22 @@ a.button{
   color: white;
 }
 
-hr.style {
-  height: 30px;
-  display: inline-block;
-  border-style: solid;
-  border-color: #8c8b8b;
-  border-width: 1px 0 0 0;
-  border-radius: 20px;
-}
-hr.style:before {
-  display: block;
-  content: "";
-  height: 30px;
-  margin-top: -31px;
-  border-style: solid;
-  border-color: #8c8b8b;
-  border-width: 0 0 1px 0;
-  border-radius: 20px;
-}
-
 .work-preview {
   position: relative;
   text-align: center;
-  padding-bottom: 7%;
   font-family: helvetica;
   font-size: 17px;
   font-weight: 300;
   line-height: 30px;
   letter-spacing: .15em;
+}
+
+h1.work-preview {
+  font-size: 1.5em;
+}
+
+h3.work-preview {
+  font-size: 1em;
 }
 
 #article-view {
@@ -263,6 +244,12 @@ hr.style:before {
   padding-left: 5%;
   padding-right: 5%;
   float: left;
+}
+
+.project-img:hover {
+  -webkit-transform: scale(1.1, 1.1);
+  -webkit-transition-duration: 400ms;
+  -webkit-transition-timing-function: 400ms ease-in-out;
 }
 
 .hr-clear-fix {
